@@ -1,0 +1,57 @@
+h1{
+ color:#FC0036;
+ font-size: 120px;
+ text-indent: 50px;
+ margin: 0px;
+ padding: 0px;
+ line-height:115px;
+}
+body{
+  font-family: impact;
+  background-color: #FBD335;
+  background-image: url(Lakeith.jpg);
+  background-repeat: no-repeat;
+  width: 600px;
+}
+.top{
+  color: #8D28C6;
+  border-bottom:5px solid #8D28C6;
+  font-size: 15px;
+  letter-spacing: 2px;
+  }
+.bottom{
+    border-bottom:3px solid #8D28C6;
+    color: #FC0036;
+    font-size: 27px;
+    text-align: left;
+    margin-top: 500px;
+    padding-bottom: 15px;
+    word-spacing: 10px;
+    bottom:10px;
+    font-weight: bold;
+}
+.magenta{
+  color: #FD28FE;
+}
+.purp{
+  color:#8D28C6;
+  font-size: 15px;
+}
+.boots{
+  font-size: 35px;
+
+}
+footer .image {
+margin-left: 200px;
+}
+a{
+  color: #FD28FE;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 202px;
+  font-weight: bold;
+}
+a:hover{
+  color:  #FC0036;
+  text-decoration: none;
+}
