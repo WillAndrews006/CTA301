@@ -1,0 +1,105 @@
+h2{
+  font-family: Helvetica;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid black;
+}
+
+.floatimage{
+ margin-right: 10px;
+ padding: 10px;
+ float: left;
+ border: 2px solid black;
+}
+
+#georgia {
+  font-family: Georgia;
+  font-weight: bold;
+  text-align: justify;
+  margin: 10px;
+
+}
+
+#random {
+font-family: Georgia;
+margin: 5px;
+}
+#wrapper{
+ width: 960px;
+ margin: 1em auto;
+ padding: 0px;
+ background-color: white;
+ border: 3px solid black;
+ display:grid;
+ grid-template-columns: repeat(12,1fr)
+}
+
+nav{
+ grid-column: span 3;
+ }
+nav ul{
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+}
+nav li{
+margin: 15px;
+padding: 0px;
+color: white;
+background-color: red;
+width:360;
+}
+nav li a{
+text-decoration: none;
+padding: 15px;
+background-color: red;
+color: white;
+display: block;
+}
+nav li a:hover{
+  text-decoration: none;
+  padding: 15px;
+  background-color: maroon;
+  color: white;
+  display: block;
+}
+
+main{
+grid-column: span 9;
+}
+main a{
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+main a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+header{
+  font-family: Helvetica;
+  background-color: black;
+  color: white;
+  margin: 10px;
+  padding: 5px;
+  font-weight: normal;
+  font-size: 15px;
+  grid-column: span 12;
+}
+
+
+footer{
+  font-family: Verdana;
+  font-style: italic;
+  text-align: center;
+  background-color: red;
+  border-top: 3px solid black;
+  color: white;
+  grid-column: span 12;
+  font-size: 15px;
+}
+
+body{
+
+  background-image: url(a62.png);
+}
