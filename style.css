@@ -1,0 +1,40 @@
+p {
+  color: #2EA0D1;
+  background-color: #13323F;
+}
+#ATKTitle {
+  color: #00FF00;
+  background-color: #13323F;
+}
+#bold {
+  color: #FF5321;
+}
+#cold {
+  color: #00FF00;
+  background-color: #FF0000;
+}
+
+.spanstyle {
+  color: #00FF00;
+}
+
+a {
+  color: #FF0000;
+  text-decoration: none;
+}
+
+a:link {
+  color: #FF0000;
+}
+
+a:visited{
+  color: #28F451;
+}
+
+a:active{
+  color: #F42828;
+}
+
+a:hover {
+  color: #E7F428;
+}
